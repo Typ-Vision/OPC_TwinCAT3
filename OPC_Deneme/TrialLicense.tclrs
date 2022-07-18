@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<TcLicenseInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.beckhoff.com/schemas/2011/11/TcLicenseInfo">
+	<LicenseInfo>
+		<SystemId>{793AD132-C498-1C9D-05CB-DBE71E15C16D}</SystemId>
+		<IssueTime>2022-07-18T12:15:00</IssueTime>
+		<ExpireTime>2022-07-26T00:00:00</ExpireTime>
+		<LicenseKey>18103f717c5dd2e8d384193bcf785350762c1d245c69d8bf3ff616c25bd8637c47371c5113f787a6c562a096834e69997c5d45a552b8f89f163dd58dca6e7d0e34e270fec080a2a8f9a1f651d9955ac3e1a1714508295d1ea23df73c7a6d600a301aabb55534aa9ac0e8165480c8945f072d22052a419809f97e1a430005431cfd9f35f20efe61293a611e6f417ef965ab72136c92ef4d25c4ed0a260ae29b3367a8b9732b270109c9733c0dd67dbc862e4f786f3447ec53a53d9e5ca308e946d596b271d302cf6ba1fd0aaba64b2980c54733d0b7880390d6a7daf134d2d87d48537dee50f16c4669ee33ffecaebd97d190358c3da73daa409caccad7aaa820</LicenseKey>
+		<License>
+			<LicenseId>{4C256767-E6E6-4AF5-BD68-9F7ABAD0C200}</LicenseId>
+			<Name>TC3 ADS</Name>
+			<OrderNo>TC1000</OrderNo>
+		</License>
+		<License>
+			<LicenseId>{3FF18E97-7754-401B-93FB-70544DE28A13}</LicenseId>
+			<Name>TC3 IO</Name>
+			<OrderNo>TC1100</OrderNo>
+		</License>
+		<License>
+			<LicenseId>{66689887-CCBD-452C-AC9A-039D997C6E66}</LicenseId>
+			<Name>TC3 PLC</Name>
+			<OrderNo>TC1200</OrderNo>
+		</License>
+		<License>
+			<LicenseId>{37E5160D-987B-4640-888D-0F97727B53E2}</LicenseId>
+			<Name>TC3 HMI Clients</Name>
+			<Instances>1</Instances>
+		</License>
+		<License>
+			<LicenseId>{A2091C4C-7D04-4202-B173-9984E7125BC0}</LicenseId>
+			<Name>TC3 HMI Targets</Name>
+			<Instances>1</Instances>
+		</License>
+		<License>
+			<LicenseId>{796D380F-D49E-4C0C-A05F-500052FAC883}</LicenseId>
+			<Name>TC3 HMI Server</Name>
+			<OrderNo>TF2000</OrderNo>
+		</License>
+		<License>
+			<LicenseId>{ADDFAE21-8CFE-4AF3-9F46-29C36F985936}</LicenseId>
+			<Name>TC3 HMI OPC UA</Name>
+			<OrderNo>TF2110</OrderNo>
+		</License>
+		<License>
+			<LicenseId>{BDCC0070-42D5-49AE-ABF1-1D4434813D60}</LicenseId>
+			<Name>TC3 OPC-UA</Name>
+			<OrderNo>TF6100</OrderNo>
+		</License>
+	</LicenseInfo>
+</TcLicenseInfo>

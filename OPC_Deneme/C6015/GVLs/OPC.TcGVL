@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TcPlcObject Version="1.1.0.1" ProductVersion="3.1.4024.6">
+  <GVL Name="OPC" Id="{29972865-3f79-451d-bde3-cdba0f08ef26}">
+    <Declaration><![CDATA[{attribute 'qualified_only'}
+VAR_GLOBAL
+	{attribute 'OPC.UA.DA' := '1'}
+	bBit			: BOOL;
+	{attribute	'OPC.UA.DA'	:= '1'}
+	nSayi			: INT;
+	{attribute	'OPC.UA.DA'	:= '1'}
+	sMetin			: STRING;
+END_VAR]]></Declaration>
+  </GVL>
+</TcPlcObject>

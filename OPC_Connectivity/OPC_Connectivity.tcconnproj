@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="10.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{89d0979a-0034-4028-a07d-2e9444cd0445}</ProjectGuid>
+    <AssemblyName>OPC_Connectivity</AssemblyName>
+    <Name>OPC_Connectivity</Name>
+    <RootNamespace>OPC_Connectivity</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include="OPC UA Server.tcopcuasrv">
+      <SubType>Content</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <tcopcuasrvdaCompile Include="OPC UA Server\Data Access\Data Access.opcuada">
+      <DependentUpon>OPC UA Server.tcopcuasrv</DependentUpon>
+    </tcopcuasrvdaCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <tcopcuasrvalarmcCompile Include="OPC UA Server\Alarms and Conditions\Alarms and Conditions.ac">
+      <DependentUpon>OPC UA Server.tcopcuasrv</DependentUpon>
+    </tcopcuasrvalarmcCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <tcopcuasrvresCompile Include="OPC UA Server\Resources\Resources.res">
+      <DependentUpon>OPC UA Server.tcopcuasrv</DependentUpon>
+    </tcopcuasrvresCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <tcopcuasrvhaCompile Include="OPC UA Server\Historical Access\Historical Access.opcuaha">
+      <DependentUpon>OPC UA Server.tcopcuasrv</DependentUpon>
+    </tcopcuasrvhaCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <tcopcuasrvsecCompile Include="OPC UA Server\Security Access\Security Access.sec">
+      <DependentUpon>OPC UA Server.tcopcuasrv</DependentUpon>
+    </tcopcuasrvsecCompile>
+  </ItemGroup>
+  <!-- This next bit is required unless the macro used to Import your targets is defined in an MSBuild toolset. -->
+  <ProjectExtensions>
+    <ProjectCapabilities>
+      <ProjectConfigurationsDeclaredAsItems />
+      <TcConnectivity />
+    </ProjectCapabilities>
+  </ProjectExtensions>
+</Project>
